@@ -37,7 +37,7 @@ app.use(cookieParser());
 app.use(                                // <=== ESTO ES NUEVO
   cors({
     credentials: true,
-    origin: ['http://localhost:3001'] // <=== This will be the URL of our React app (it will be running on port 3001)
+    origin: ['https://web-personal-tipo-blog.netlify.app/'] // <=== This will be the URL of our React app (it will be running on port 3001)
   })
 )
 
